@@ -99,3 +99,133 @@ background: -webkit-linear-gradient(#4285F4, #DB4437, #F4B400, #0F9D58);
 color: blue;
     
 }
+
+
+/*@media (min-width: 640px) {*/
+/*    body {*/
+/*    background-color: red;*/
+/* }*/
+ 
+/* .nav {*/
+/*    height: 50px;*/
+/*    width: 100%;*/
+/*    background-color: white;*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.nav .nav-header {*/
+/*    display: inline;*/
+/*}*/
+
+/*.nav .nav-header>.nav-title {*/
+/*    display: inline-block;*/
+/*    font-family: 'Rowdies', cursive;*/
+/*    font-weight: 300;*/
+/*    font-size: 22px;*/
+/*    color: #4281A4;*/
+/*    padding: 10px 10px 10px 10px;*/
+/*}*/
+
+/*.nav .nav-btn {*/
+/*    display: none;*/
+/*}*/
+
+/*.nav .nav-links {*/
+/*    display: inline;*/
+/*    font-family: 'Rowdies', cursive;*/
+/*    float: right;*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.nav .nav-links a {*/
+/*    display: inline-block;*/
+/*    padding: 13px 10px 13px 10px;*/
+/*    text-decoration: none;*/
+/*    color: #C48E27;*/
+/*}*/
+
+/*.nav .nav-links a:hover {*/
+/*    background-color: #f8f8f8;*/
+/*}*/
+
+/*.nav #nav-check {*/
+/*    display: none;*/
+/*}*/
+ 
+/*}*/
+
+/*@media (min-width: 1536px) {*/
+    /*.jason, .jan {*/
+    /*    display: flex;*/
+    /*}*/
+    
+    /*.container {*/
+    /*    display: inline-block;*/
+    /*    position: absolute;*/
+    /*}*/
+    
+/*    .jason {*/
+/*        display: inline-block;*/
+/*        position: relative;*/
+/*        right: 150px;*/
+/*    }*/
+    
+/*    .jason .card {*/
+/*        width: 350px;*/
+/*    }*/
+    
+/*    .jan {*/
+/*        display: inline-block;*/
+/*        position: relative;*/
+/*        left: 150px;*/
+/*    }*/
+    
+/*    .jan .card {*/
+/*        width: 350px;*/
+/*    }*/
+    
+
+/*}*/
+
+.jason {
+    display: grid;
+}
+
+.jan {
+    display: grid;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen (max-width: 760px) {
+    .container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+@media screen (max-width: 1024px) {
+    .container {
+    display: grid;
+    /*grid-template-columns: 1fr 1fr;*/
+    /*width: 100%;*/
+    grid-template: 200px / auto-flow;
+}
+    
+    .jason {
+    display: grid;
+    width: 50%;
+}
+
+.jan {
+    display: grid;
+     width: 50%;
+
+}
+}
+
