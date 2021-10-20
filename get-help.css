@@ -1,4 +1,4 @@
-.section1 h2 {
+.section1 h6 {
     font-family: 'Rowdies', cursive;
     font-weight: normal;
     text-align: center;
@@ -27,4 +27,32 @@
 
 .res-list section a:hover {
     color: #808080;
+}
+
+.fa-home {
+    margin-right: 10px;
+    background: -webkit-linear-gradient(#784F41, #7C5347, #80574C, #885E56, #986C6A, #B399A2, #E8F7EE, #AEBAB3, #747C77, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*--------------------------------------------------------------*/
+
+.content {
+    display: flex;
+}
+
+.content img {
+    margin-right: 10px;
+    display: block;
+}
+
+.content h6 {
+    align-content: center;
+}
+
+.size {
+    width: 75px;
+    height: 75px;
 }

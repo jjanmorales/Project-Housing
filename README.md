@@ -51,3 +51,22 @@ This project will be completed in groups of 2-3. Groups will add an additional s
 * **Tuesday, October 19** - Design Mockup completed
 * **Thursday, October 21** - [_MVP_](https://www.freecodecamp.org/news/what-the-hell-does-minimum-viable-product-actually-mean-anyway-7d8f6a110f38/) Due
 * **Monday, October 25 at 9AM** - Final Project and Project Presentations Due!
+* 
+
+------------------------------------------------------------------------------------------------------
+
+
+**Logo
+
+***HTML
+
+<i class="fa fa-home"></i>
+
+***CSS
+
+.fa-home {
+    margin-right: 10px;
+    background: -webkit-linear-gradient(#784F41, #7C5347, #80574C, #885E56, #986C6A, #B399A2, #E8F7EE, #AEBAB3, #747C77, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
