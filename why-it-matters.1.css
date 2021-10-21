@@ -1,156 +1,66 @@
-/*.title {*/
-/*    text-align: center;*/
-/*    color: #c48e27;*/
-/*    font-size: 25px;*/
-/*}*/
 
-/*.border {*/
-/*    background: #FFFFFF;*/
-/*    border-radius: 18px;*/
-/*    display: block;*/
-/*    padding: 10px;*/
-/*    margin: 10px;*/
-
-/*}*/
-
-/*.border .container .item {*/
-/*    font-size: small;*/
-/*    text-align: justify;*/
-/*    font-weight: 200;*/
-/*    color: black;*/
-/*    margin: 15px;*/
-/*}*/
-
-/*.itemLi {*/
-/*    list-style-type: none;*/
-/*    margin-bottom: 10px;*/
-/*}*/
-
-/*.children>img {*/
-/*    width: 600px;*/
-/*    height: auto;*/
-/*}*/
-
-/*@media screen and ( max-width: 400px ) {*/
-/*.children>img { */
-/*    width: 100%; */
-/*    height: auto;*/
-/*    display:flex;*/
-/*    padding: 5%;*/
-/*    }*/
-/*}*/
-/*@media screen and ( min-width:px ) and ( max-width: 1280px ) {*/
-/*.children>img { width: 300px; }*/
-/*}*/
-/*@media screen and ( min-width: 1081px ) {*/
-/*.children>img { width: 400px; }*/
-/*}*/
-/*.children>img { height: auto; }*/
-#body {
+body {
     box-sizing: border-box;
     margin:0;
     padding: 0;
+    /*background-color: white;*/
+    min-width: fit-content;
 }
 
-
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  height: 40vh;
-  flex-grow: 1;
-  list-style: none;
-  margin:0;
-  flex-wrap: wrap;
-}
-
-li:last-child {
- /*There's no science in using "10" here. In all my testing, this delivered the best results.*/
-  flex-grow: 10;
-}
 
 img {
-  max-height: 100%;
-  min-width: 100%;
-  object-fit: cover;
+  width: auto;
+  height: 40vh;
   vertical-align: bottom;
   margin: 0;
 }
 
-/*// ADVANCED*/
+/*.nav-links, .get-help {*/
+/*  color: #C38E27;*/
+/*}*/
 
-/*// Portrait*/
+/*.nav-links, .reach-us {*/
+/*  color: #E34339;*/
+/*}*/
 
-@media (max-aspect-ratio: 1/1) {
-  li, .container, .overlay {
-    height: 30vh;
-  }
-  
-}
-
-/*// Short screens*/
-
-@media (max-height: 480px) {
-  li {
-    height: 80vh;
-  }
-}
-
-/*// Smaller screens in portrait*/
-
-@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
-  ul, .container, .overlay {
-    flex-direction: row;
-  }
-
-  li {
-    height: auto;
-    width: 100%;
-  }
-  img, .container, .overlay {
-    width: 100%;
-    max-height: 75vh;
-    min-width: 0;
-  }
-}
-/*<--- this css performs the hover to reveal text --->*/
+/*.nav-links, .about-us {*/
+/*  color: #4A9ABC;*/
+/*}*/
 
 .container {
   display: flex;
   position: relative;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-grow: 1;
+  /*flex-wrap: wrap;*/
+  /*flex-direction: row;*/
   padding: 0;
-  height: 40vh;
+  /*height: 40vh;*/
   vertical-align: bottom;
   margin: 0;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+/*.image {*/
+/*  display: block;*/
+/*  width: 100%;*/
+/*  height: auto;*/
+/*}*/
 
 .overlay {
-  display: flex;
-  flex-direction: row;
+  /*display: flex;*/
+  /*flex-direction: row;*/
   position: absolute;
+  display: flex;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   vertical-align: bottom;
   margin: 0;
-  width: 100%;
-  height: 40vh;
+  /*width: 100%;*/
+  /*height: 40vh;*/
   opacity: 0;
   transition: .5s ease;
-  background-color: #71978f;
+  background-color: #E34339;
 }
 
 .container:hover .overlay {
@@ -160,15 +70,41 @@ img {
 .text {
   color: white;
   font-size: 15px;
+  line-height: 1.3;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 10px;
-  /*position: absolute;*/
-  /*top: 50%;*/
-  /*left: 50%;*/
-  /*-webkit-transform: translate(-50%, -50%);*/
-  /*-ms-transform: translate(-50%, -50%);*/
-  /*transform: translate(-50%, -50%);*/
   text-align: center;
+  text-shadow: 2px 1px black;
 }
 
+#content {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.container-fluid {
+  background-color: white;
+  color: darkslategrey;
+  text-align: center;
+  padding: 5px 15px;
+  margin: 15px 0px;
+}
+
+.footer {
+  background-color: white;
+  color: darkgrey;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  height: 4vh;
+  margin-top: 15px;
+  padding: 3px;
+  font-family: 'Rowdies', cursive;
+}
