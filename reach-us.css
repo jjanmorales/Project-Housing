@@ -75,3 +75,7 @@ input[type=submit]:hover {
   padding: 3px;
   font-family: 'Rowdies', cursive;
 }
+
+footer {
+  margin-top: 150px;
+}
