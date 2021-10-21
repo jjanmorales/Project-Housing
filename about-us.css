@@ -75,7 +75,7 @@ i {
 
 .itemLi {
     list-style-type: none;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .fa-instagram {
@@ -117,5 +117,32 @@ color: blue;
         position: relative;
         left: 450px;
     }
+    
+    .container .jason .bip .factList li {
+        color: white;
+        font-weight: 200;
+        background-color: #e6c799;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    }
+    
+    .container .jason .facts .factList li {
+        color: white;
+        font-weight: 200;
+        background-color: #e6c799;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    }
+    
+    .container .jan .facts .factList li {
+       color: white;
+        font-weight: 200;
+        background-color: #e6c799;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    
+    
+    
+    
     
 }
