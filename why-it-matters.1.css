@@ -15,6 +15,18 @@ img {
   margin: 0;
 }
 
+/*.nav-links, .get-help {*/
+/*  color: #C38E27;*/
+/*}*/
+
+/*.nav-links, .reach-us {*/
+/*  color: #E34339;*/
+/*}*/
+
+/*.nav-links, .about-us {*/
+/*  color: #4A9ABC;*/
+/*}*/
+
 .container {
   display: flex;
   position: relative;
@@ -70,5 +82,13 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   padding: 0;
+}
+
+.container-fluid {
+  background-color: white;
+  color: darkslategrey;
+  text-align: center;
+  padding: 5px 15px;
+  margin: 15px 0px;
 }
 

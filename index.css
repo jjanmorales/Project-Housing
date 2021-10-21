@@ -5,7 +5,7 @@
 body {
     margin: 0px;
     font-family: 'segoe ui';
-    background-color: #9CAFB7;
+    background-color: #ddeaec;
 }
 
 .nav {
@@ -44,7 +44,7 @@ body {
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: #C48E27;
+    /*color: #C48E27;*/
 }
 
 .nav>.nav-links>a:hover {
@@ -119,4 +119,17 @@ body {
     padding: 10px;
     margin: 10px;
     
+}
+
+
+.nav-links, .get-help {
+  color: #C38E27;
+}
+
+.nav-links, .reach-us {
+  color: #E34339;
+}
+
+.nav-links, .about-us {
+  color: #4A9ABC;
 }
