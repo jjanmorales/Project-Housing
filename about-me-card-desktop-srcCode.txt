@@ -1,0 +1,349 @@
+body {
+    background-color: #ecd6b4;
+}
+
+/*------------------------------------------------------------*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: auto;
+    margin-top: 15px;
+    /*margin-bottom: 250px;*/
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
+
+/*------------------------------------------------------------*/
+
+.title1,
+li {
+    text-align: center;
+}
+
+
+/*------------------------------------------------------------*/
+
+i {
+    margin-right: 10px;
+}
+
+.border {
+    background: #FFFFFF;
+    border-radius: 18px;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.border .container .item {
+    font-size: small;
+    text-align: justify;
+    font-weight: 200;
+    color: black;
+    margin: 15px;
+}
+
+.itemLi {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.fa-instagram {
+    background: -webkit-linear-gradient(#405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-facebook {
+    background: -webkit-linear-gradient(#4267B2, #898F9C, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-inbox {
+background: -webkit-linear-gradient(#4285F4, #DB4437, #F4B400, #0F9D58);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
+
+.fa-linkedin {
+color: blue;
+    
+}
+
+
+/*@media (min-width: 640px) {*/
+/*    body {*/
+/*    background-color: red;*/
+/* }*/
+ 
+/* .nav {*/
+/*    height: 50px;*/
+/*    width: 100%;*/
+/*    background-color: white;*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.nav .nav-header {*/
+/*    display: inline;*/
+/*}*/
+
+/*.nav .nav-header>.nav-title {*/
+/*    display: inline-block;*/
+/*    font-family: 'Rowdies', cursive;*/
+/*    font-weight: 300;*/
+/*    font-size: 22px;*/
+/*    color: #4281A4;*/
+/*    padding: 10px 10px 10px 10px;*/
+/*}*/
+
+/*.nav .nav-btn {*/
+/*    display: none;*/
+/*}*/
+
+/*.nav .nav-links {*/
+/*    display: inline;*/
+/*    font-family: 'Rowdies', cursive;*/
+/*    float: right;*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.nav .nav-links a {*/
+/*    display: inline-block;*/
+/*    padding: 13px 10px 13px 10px;*/
+/*    text-decoration: none;*/
+/*    color: #C48E27;*/
+/*}*/
+
+/*.nav .nav-links a:hover {*/
+/*    background-color: #f8f8f8;*/
+/*}*/
+
+/*.nav #nav-check {*/
+/*    display: none;*/
+/*}*/
+ 
+/*}*/
+
+/*@media (min-width: 1536px) {*/
+    /*.jason, .jan {*/
+    /*    display: flex;*/
+    /*}*/
+    
+    /*.container {*/
+    /*    display: inline-block;*/
+    /*    position: absolute;*/
+    /*}*/
+    
+/*    .jason {*/
+/*        display: inline-block;*/
+/*        position: relative;*/
+/*        right: 150px;*/
+/*    }*/
+    
+/*    .jason .card {*/
+/*        width: 350px;*/
+/*    }*/
+    
+/*    .jan {*/
+/*        display: inline-block;*/
+/*        position: relative;*/
+/*        left: 150px;*/
+/*    }*/
+    
+/*    .jan .card {*/
+/*        width: 350px;*/
+/*    }*/
+    
+
+/*}*/
+
+/*.jason {*/
+/*    display: grid;*/
+/*}*/
+
+/*.jan {*/
+/*    display: grid;*/
+/*}*/
+
+/*.container {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr;*/
+/*}*/
+
+/*@media screen (max-width: 760px) {*/
+/*    .container {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr;*/
+/*    }*/
+/*}*/
+
+
+
+@media all and (max-width: 1490px) {
+/*    .container {*/
+/*    display: flex;*/
+/*}*/
+
+/*.card {*/
+/*    flex: 1;*/
+/*    margin-right: 50px;*/
+/*}*/
+
+/*.container {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));*/
+/*}*/
+
+/*.container .jason {*/
+/*    padding: 10px;*/
+/*    margin-right: 50px;*/
+/*}*/
+
+/*.container .jan {*/
+/*    padding: 10px;*/
+/*    margin-left: 50px;*/
+/*    align-self: end;*/
+   
+/*}*/
+
+body {
+    background-color: #ecd6b4;
+}
+
+/*------------------------------------------------------------*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: auto;
+    margin-top: 15px;
+    /*margin-bottom: 250px;*/
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
+
+/*------------------------------------------------------------*/
+
+.title1,
+li {
+    text-align: center;
+}
+
+
+/*------------------------------------------------------------*/
+
+i {
+    margin-right: 10px;
+}
+
+.border {
+    background: #FFFFFF;
+    border-radius: 18px;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.border .container .item {
+    font-size: small;
+    text-align: justify;
+    font-weight: 200;
+    color: black;
+    margin: 15px;
+}
+
+.itemLi {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.fa-instagram {
+    background: -webkit-linear-gradient(#405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-facebook {
+    background: -webkit-linear-gradient(#4267B2, #898F9C, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-inbox {
+background: -webkit-linear-gradient(#4285F4, #DB4437, #F4B400, #0F9D58);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
+
+.fa-linkedin {
+color: blue;
+    
+}
+
+
+    .container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 500px;
+    }
+    
+}
