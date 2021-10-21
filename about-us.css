@@ -100,10 +100,22 @@ color: blue;
     
 }
 
+
 @media all and (min-width: 1024px) {
     .container {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    column-gap: 50px;
+    grid-column-gap: 5px;
     }
+    
+    .container .jason {
+        position: relative;
+        left: 50px;
+    }
+    
+    .container .jan {
+        position: relative;
+        left: 450px;
+    }
+    
 }
