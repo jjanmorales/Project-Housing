@@ -1,5 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   background-color: #9CAFB7;
+}
+
+html, body{
+  min-height:100%;
+  
+}
+body{
+  height:100vh;
+  
 }
 
 form {
@@ -45,4 +59,19 @@ input[type=submit]:hover {
   background: -webkit-linear-gradient(#a6b7bf, #566d76, #151b1e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+
+.footer {
+  background-color: white;
+  color: darkgrey;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  height: 4vh;
+  margin-top: 15px;
+  padding: 3px;
+  font-family: 'Rowdies', cursive;
 }

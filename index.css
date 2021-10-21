@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0px;
     font-family: 'segoe ui';
@@ -134,11 +138,19 @@ body {
   color: #4A9ABC;
 }
 
-/*.footer {*/
-/*        height: 10vh;*/
-/*        width: 100%;*/
-/*        position: fixed;        */
-/*        background: #333;*/
-/*        padding: 10px 0;*/
-/*        color: #fff;*/
-/*}*/
+
+.footer {
+  background-color: white;
+  /*position: absolute;*/
+  bottom: 0;
+  color: darkgrey;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 15px;
+  height: 4vh;
+  margin-top: 15px;
+  padding: 3px;
+  font-family: 'Rowdies', cursive;
+}
