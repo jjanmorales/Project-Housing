@@ -126,15 +126,15 @@ body {
 }
 
 
-.nav-links, .get-help {
+.nav-links, .yellow {
   color: #C38E27;
 }
 
-.nav-links, .reach-us {
+.nav-links, .red {
   color: #E34339;
 }
 
-.nav-links, .about-us {
+.nav-links, .blue {
   color: #4A9ABC;
 }
 
