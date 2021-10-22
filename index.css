@@ -2,10 +2,14 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0px;
     font-family: 'segoe ui';
-    background-color: #9CAFB7;
+    background-color: #ddeaec;
 }
 
 .nav {
@@ -44,7 +48,7 @@ body {
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: #C48E27;
+    /*color: #C48E27;*/
 }
 
 .nav>.nav-links>a:hover {
@@ -119,4 +123,34 @@ body {
     padding: 10px;
     margin: 10px;
     
+}
+
+
+.nav-links, .yellow {
+  color: #C38E27;
+}
+
+.nav-links, .red {
+  color: #E34339;
+}
+
+.nav-links, .blue {
+  color: #4A9ABC;
+}
+
+
+.footer {
+  background-color: white;
+  /*position: absolute;*/
+  bottom: 0;
+  color: darkgrey;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 15px;
+  height: 4vh;
+  margin-top: 15px;
+  padding: 3px;
+  font-family: 'Rowdies', cursive;
 }

@@ -139,8 +139,6 @@ i {
 
 }
 
-
-
 @media all and (min-width: 1024px) {
     .container {
         display: inline-flex;
