@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&family=Rowdies&display=swap');
+
 body {
     background-color: #ecd6b4;
 }
@@ -11,6 +13,7 @@ body {
     margin-top: 15px;
     /*margin-bottom: 250px;*/
     text-align: center;
+    font-size: 1.5em;
 }
 
 .title {
@@ -66,9 +69,7 @@ i {
 }
 
 .border .container .item {
-    font-size: small;
-    text-align: justify;
-    font-weight: 200;
+    text-align: center;
     color: black;
     margin: 15px;
 }
@@ -91,58 +92,60 @@ i {
 }
 
 .fa-inbox {
-background: -webkit-linear-gradient(#4285F4, #DB4437, #F4B400, #0F9D58);
+    background: -webkit-linear-gradient(#4285F4, #DB4437, #F4B400, #0F9D58);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;}
+    -webkit-text-fill-color: transparent;
+}
 
 .fa-linkedin {
-color: blue;
-    
+    color: blue;
+
 }
+
+.container .jason .facts .factList li {
+    color: white;
+    font-weight: 400;
+    background-color: #d19a47;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    font-family: 'Andada Pro', serif;
+    font-size: 1.2em;
+
+}
+
+.container .jason .bio .border {
+    background-color: #f5e9d6;
+    font-weight: 500;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    font-family: 'Andada Pro', serif;
+    font-size: 1.2em;
+}
+
+.container .jan .facts .factList li {
+    color: white;
+    font-weight: 500;
+    background-color: #d19a47;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    font-family: 'Andada Pro', serif;
+    font-size: 1.2em;
+
+}
+
+.container .jan .bio .border {
+    background-color: #f5e9d6;
+    font-weight: 500;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    font-family: 'Andada Pro', serif;
+    font-size: 1.2em;
+
+}
+
 
 
 @media all and (min-width: 1024px) {
     .container {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-column-gap: 5px;
+        display: inline-flex;
     }
-    
-    .container .jason {
-        position: relative;
-        left: 50px;
-    }
-    
-    .container .jan {
-        position: relative;
-        left: 450px;
-    }
-    
-    .container .jason .bip .factList li {
-        color: white;
-        font-weight: 200;
-        background-color: #e6c799;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    }
-    
-    .container .jason .facts .factList li {
-        color: white;
-        font-weight: 200;
-        background-color: #e6c799;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    }
-    
-    .container .jan .facts .factList li {
-       color: white;
-        font-weight: 200;
-        background-color: #e6c799;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    }
-    
-    
-    
-    
-    
-    
-    
+
+
+
 }
