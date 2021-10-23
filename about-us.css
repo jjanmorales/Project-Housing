@@ -120,6 +120,14 @@ i {
     font-size: 1.2em;
 }
 
+.container .jason .facts,
+.container .jason .bio {
+    min-width: 325px;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .container .jan .facts .factList li {
     color: white;
     font-weight: 500;
@@ -136,7 +144,14 @@ i {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
     font-family: 'Andada Pro', serif;
     font-size: 1.2em;
+}
 
+.container .jan .facts,
+.container .jan .bio {
+    min-width: 325px;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 @media all and (min-width: 1024px) {
@@ -144,6 +159,32 @@ i {
         display: inline-flex;
     }
 
+    .container .jason .facts,
+    .container .jason .bio {
+        min-width: 325px;
+        width: 80%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
 
+
+    .container .jan .facts,
+    .container .jan .bio {
+        min-width: 325px;
+        width: 80%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .title1 {
+        min-width: 325px;
+        width: 80%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .title {
+        font-weight: 500px;
+    }
 
 }
