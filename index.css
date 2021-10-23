@@ -126,15 +126,15 @@ body {
 }
 
 
-.nav-links, .yellow {
+.nav-links .yellow {
   color: #C38E27;
 }
 
-.nav-links, .red {
+.nav-links .red {
   color: #E34339;
 }
 
-.nav-links, .blue {
+.nav-links .blue {
   color: #4A9ABC;
 }
 
