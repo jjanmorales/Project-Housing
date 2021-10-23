@@ -1,68 +1,3 @@
-/** {*/
-/*  box-sizing: border-box;*/
-/*}*/
-
-
-/*body {*/
-/*  background-color: #9CAFB7;*/
-/*}*/
-
-/*html,*/
-/*body {*/
-/*  min-height: 100%;*/
-
-/*}*/
-
-/*body {*/
-/*  height: 100vh;*/
-
-/*}*/
-
-/*form {*/
-/*  border: 3px solid #d3dbdf;*/
-/*  font-family: Arial;*/
-/*}*/
-
-/*.container {*/
-/*  padding: 20px;*/
-/*  background-color: #d3dbdf;*/
-/*}*/
-
-/*input[type=text],*/
-/*input[type=submit] {*/
-/*  width: 100%;*/
-/*  padding: 12px;*/
-/*  margin: 8px 0;*/
-/*  display: inline-block;*/
-/*  border: 1px solid #ccc;*/
-/*  box-sizing: border-box;*/
-/*}*/
-
-/*input[type=checkbox] {*/
-/*  margin-top: 16px;*/
-/*}*/
-
-/*input[type=submit] {*/
-/*  background-color: #405159;*/
-/*  color: #fff;*/
-/*  border: none;*/
-/*  border-radius: 15px;*/
-/*}*/
-
-/*input[type=submit]:hover {*/
-/*  opacity: 0.7;*/
-/*}*/
-
-/*.formSection {*/
-/*  text-align: center;*/
-/*}*/
-
-/*.formSection h2 {*/
-/*  background: -webkit-linear-gradient(#a6b7bf, #566d76, #151b1e);*/
-/*  -webkit-background-clip: text;*/
-/*  -webkit-text-fill-color: transparent;*/
-/*}*/
-
 * {
   margin: 0;
   padding: 0;
@@ -75,11 +10,12 @@ body {
 
 .container {
   background: url(images/Form-Picture2.jpeg) no-repeat center;
-  background-size: cover;
+  background-size: 100vh;
   padding: 100px 40px;
   text-align: center;
   color: white;
   font-weight: bolder;
+  margin-top: 25px;
 }
 
 .container p {
