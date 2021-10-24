@@ -6,16 +6,36 @@
 
 body {
   background: #333;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+section {
+  padding: 0 100px;
+  background: url(images/Form-Picture.jpeg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .container {
-  background: url(images/Form-Picture2.jpeg) no-repeat center;
-  background-size: 100vh;
   padding: 100px 40px;
-  text-align: center;
-  color: white;
-  font-weight: bolder;
-  margin-top: 25px;
+  color: black;
+  position: relative;
+  max-width: 600px;
+  background: rgba(255, 255, 255, .2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.container h1 {
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: black;
 }
 
 .container p {
@@ -25,6 +45,59 @@ body {
 }
 
 .email-box {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.email-box i {
+  background: #666;
+  width: 40px;
+  line-height: 40px;
+}
+
+.tbox, .btn {
+  border: none;
+  outline: none;
+}
+
+.tbox {
+  width: 0px;
+  transition: 0.6s;
+}
+
+.email-box:hover > .tbox, .tbox:focus {
+  width: 60px;
+  padding: 0 10px;
+}
+
+.btn {
+  background: #666;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: white;
+  color: darkgrey;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  height: 4vh;
+  /*margin-top: 15px;*/
+  padding: 3px;
+  font-family: 'Rowdies', cursive;
+}
+
+/*--------------------------------------------------*/
+
+@media all and (min-width: 1024px) {
+
+  .email-box {
   height: 40px;
   display: flex;
   justify-content: center;
@@ -59,23 +132,8 @@ body {
   cursor: pointer;
 }
 
-/*--------------------------------------------------*/
-
-
-.footer {
-  background-color: white;
-  color: darkgrey;
-  position: relative;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  font-size: 15px;
-  height: 4vh;
-  margin-top: 15px;
-  padding: 3px;
-  font-family: 'Rowdies', cursive;
 }
 
-footer {
-  margin-top: 150px;
-}
+/*footer {*/
+/*  margin-top: 150px;*/
+/*}*/
