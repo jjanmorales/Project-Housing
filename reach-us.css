@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&family=Raleway:wght@300&family=Rowdies&family=Source+Sans+Pro&family=Zen+Old+Mincho&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +6,7 @@
 }
 
 body {
-  background: #333;
+  background: white;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -36,25 +37,34 @@ section {
   font-size: 24px;
   text-transform: uppercase;
   color: black;
+  text-align: center;
+  font-family: 'Zen Old Mincho', serif;
 }
 
 .container p {
   max-width: 600px;
   margin: 40px auto;
   font-size: 1.35rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 .email-box {
   height: 40px;
   display: flex;
   justify-content: center;
+  
 }
 
 .email-box i {
-  background: #666;
+  background: #267c9e;
   width: 40px;
   padding-left: 10px;
   line-height: 40px;
+}
+
+.email-box i:hover {
+  color: white; 
 }
 
 .tbox, .btn {
@@ -73,11 +83,32 @@ section {
 }
 
 .btn {
-  background: #666;
-  color: white;
+  background: #267c9e;
+  color: black;
   padding: 0 10px;
   text-transform: uppercase;
   cursor: pointer;
+  font-family: 'Zen Old Mincho', serif;
+}
+
+.btn:hover {
+  background: #267c9e;
+  color: white;
+  font-weight: 300;
+}
+
+
+.container {
+  animation: fade 3s ease forwards;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .footer {
@@ -89,7 +120,6 @@ section {
   justify-content: center;
   font-size: 15px;
   height: 4vh;
-  /*margin-top: 15px;*/
   padding: 3px;
   font-family: 'Rowdies', cursive;
 }
@@ -98,43 +128,15 @@ section {
 
 @media all and (min-width: 1024px) {
 
-  .email-box {
-  height: 40px;
-  display: flex;
-  justify-content: center;
-}
-
-.email-box i {
-  background: #666;
-  width: 40px;
-  line-height: 40px;
-}
-
-.tbox, .btn {
-  border: none;
-  outline: none;
-}
-
-.tbox {
-  width: 0px;
-  transition: 0.6s;
-}
-
 .email-box:hover > .tbox, .tbox:focus {
   width: 260px;
   padding: 0 10px;
 }
 
-.btn {
-  background: #666;
+.btn:hover {
+  background: #267c9e;
   color: white;
-  padding: 0 10px;
-  text-transform: uppercase;
-  cursor: pointer;
+  font-weight: 300;
 }
 
 }
-
-/*footer {*/
-/*  margin-top: 150px;*/
-/*}*/
