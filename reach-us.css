@@ -13,7 +13,7 @@ body {
 
 section {
   padding: 0 100px;
-  background: url(images/Form-Picture.jpeg) no-repeat center;
+  background: url(images/FormBack6.jpeg) no-repeat center;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -53,6 +53,7 @@ section {
 .email-box i {
   background: #666;
   width: 40px;
+  padding-left: 10px;
   line-height: 40px;
 }
 
