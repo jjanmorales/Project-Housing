@@ -102,8 +102,8 @@ section {
 }
 
 
-.container {
-  animation: fade 3s ease forwards;
+.container { 
+  animation: fade 2s ease forwards;  
 }
 
 @keyframes fade {
