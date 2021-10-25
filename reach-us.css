@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "montserrat", sans-serif;
 }
 
 body {
@@ -10,6 +9,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.yellow, .red, .blue {
+   font-weight: 300;
+    font-size: 18px;
 }
 
 section {
